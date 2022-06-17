@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" th:href="@{/css/demo.css}">
+</head>
+<body>
+    <p th:text="'time is ' + ${theDate}" class="funny" />
+
+    <a href="/oauth2/authorization/google"><h1>login with google</h1>></a>
+</body>
+</html>
